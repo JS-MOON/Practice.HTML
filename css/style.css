@@ -1,0 +1,232 @@
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 5px 10px 0 0;
+}
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+
+ul, ol {
+padding: 0;
+margin: 0 0 10px 25px;
+}
+
+.nav > li {
+position: relative;
+display: block;
+float: left;
+}
+
+.navbar-brand {
+float: left;
+height: 50px;
+padding: 20px 30px;
+font-size: 20px;
+line-height: 19px;
+color: #ffffff;
+}
+
+.jumbotron {
+  padding: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: inherit;
+  background-color: #eee;
+  width: 96%;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 29.3%;
+  }
+}
+  .container .jumbotron {
+    padding-right: 3%;
+    padding-left: 3%;
+    float: left;
+    margin-right:  2%;
+    margin-left:  2%;
+  }
+
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+
+.btn-lg, .btn-group-lg > .btn {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.33;
+border-radius: 6px;
+
+}
+
+.container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+float: right;
+}
+
+.navbar-default {
+background-color: #563d7c;
+border-color: #463265;
+}
+
+#seaboard {
+  font-size: 12px;
+}
+
+.h1  {
+  background-color:  rgb(240, 232, 226);
+  height: 5%;
+  width: 45%;
+}
+
+
+body { 
+    padding-top: 20px; 
+    padding-bottom:  20px;
+    background-color: rgb(218, 230, 237);
+}
+
+#infoMenu {
+height: auto;
+background-color: rgb(207, 201, 201);
+position: fixed;
+z-index: 70;
+bottom: 0;
+width: 100%;
+text-align: right;
+padding: 13px;
+margin: 0 auto;
+}
+
+.pull-left {
+float: left !important;
+font-size:  1.3em;
+margin-left:  15px;
+}
+
+.nav > li > a {
+  color: #ffffff;
+}
+
+.relop {
+  font-family: 'ContaxPro45Lig', "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+ font-size: 11pt;
+ color: #323D47;
+}
+
+.reloh3 {
+  font-family: 'ContaxPro65Med', 'ContaxPro45Lig', "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  text-align: left;
+  margin: 3%;
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 11pt;
+  font-weight: normal;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  background-color: #fcf2f2;
+  color: #222222;
+  padding-left: 12px;
+}
+
+.jumbotronRelo {
+  padding: 3%;
+  color: inherit;
+  background-color: #eee;
+  width: 90%;
+  margin:0 auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 6px;
+}
+
+#section2 img {
+margin: 0;
+width: 100%;
+}
+
+.progress {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.navbar-default .navbar-brand {
+color: #ffffff;
+}
+
+p, h2 {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 1.0em;
+  text-align: inherit;
+  padding: 4%;
+}
+
+.ddd {
+  border: 1px solid #aaaaaa;
+}
+
+@media screen and (max-width:  768px) {
+  .jumbotron {
+    padding-top: 2%;
+    padding-bottom: 0%;
+    width: 96%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .h1 {
+  font-size: 1.1em;
+  text-align: inherit;
+  padding: 1px;
+  background-color:  rgb(240, 232, 226);
+  width: 80%;
+  }
+  .h1 > h1 {
+    padding:2%;
+  }
+  p, h2 {
+    font-size: 1.0em;
+  }
+}

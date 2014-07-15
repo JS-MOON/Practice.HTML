@@ -1,0 +1,20 @@
+application: testorgans
+version: 2
+runtime: php
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /img
+  static_dir:  static/img
+
+- url: /js
+  static_dir: js
+
+- url: /fonts
+  static_dir: fonts
+
+- url: /.*
+  script:  TESTPAGE.html
